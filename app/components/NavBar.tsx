@@ -32,9 +32,9 @@ const NavBar = () => {
             <nav className="flex items-center justify-center flex-wrap">
                 <motion.a href="https://www.instagram.com/us.rootedtogether/" target="_blank" whileHover={{y:2}} whileTap={{scale:0.9}} className="px-2"><InstagramIcon className="h-auto w-full"/></motion.a>
                 <motion.a href="https://www.tiktok.com/@us.rootedtogether" target="_blank" whileHover={{y:2}} whileTap={{scale:0.9}} className="px-2"><TiktokIcon className="h-auto w-full"/></motion.a>
-                <motion.a href="/" target="_blank" whileHover={{y:2}} whileTap={{scale:0.9}} className="px-2"><YoutubeIcon className="h-auto w-full"/></motion.a>
+                <motion.a href="https://www.youtube.com/@us.rootedtogether" target="_blank" whileHover={{y:2}} whileTap={{scale:0.9}} className="px-2"><YoutubeIcon className="h-auto w-full"/></motion.a>
                 <motion.a href="https://www.linkedin.com/company/rooted-together/" target="_blank" whileHover={{y:2}} whileTap={{scale:0.9}} className="px-2"><LinkedInIcon className="h-auto w-full"/></motion.a>
-                <motion.a href="/" target="_blank" whileHover={{y:2}} whileTap={{scale:0.9}} className="px-2"><EmailIcon className="h-auto w-full"/></motion.a>
+                <motion.a href="contact.rootedtogether@gmail.com" target="_blank" whileHover={{y:2}} whileTap={{scale:0.9}} className="px-2"><EmailIcon className="h-auto w-full"/></motion.a>
             </nav>
 
             <div className="absolute left-[50%] top-2 translate-x-[-50%]">
