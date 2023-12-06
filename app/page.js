@@ -3,7 +3,7 @@ import Image from 'next/image'
 import logo from '../public/Rooted.png'
 import { motion } from 'framer-motion'
 import AnimatedText from './components/AnimatedText'
-import Link from 'next/Link'
+import Link from 'next/link'
 
 
 export default function Home() {
