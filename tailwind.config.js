@@ -11,7 +11,8 @@ module.exports = {
       colors:{
         dark:"#457D58",
         light:"#F6F6E9",
-        primary:"#272727"
+        primary:"#272727",
+        blog:"#9F8C76"
       }
     },
   },
