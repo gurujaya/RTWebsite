@@ -7,7 +7,11 @@ import InstagramIcon from "./icons/Instagram";
 import YoutubeIcon from "./icons/Youtube";
 import LinkedInIcon from "./icons/Linkedin";
 import EmailIcon from "./icons/Email";
-import {motion} from "framer-motion"
+import { motion } from "framer-motion"
+import useThemeSwitcher from "./hooks/useThemeSwitcher";
+import Sun from './icons/Sun';
+import Moon from "./icons/Moon";
+
 
 
 const CustomLink = ({ href, title, className = "" }) => {
@@ -20,6 +24,10 @@ const CustomLink = ({ href, title, className = "" }) => {
 }
 
 const NavBar = () => {
+
+    const [mode, setMode] = useThemeSwitcher();
+
+
     return (
         <header className="w-full px-32 py-8 font-medium flex items-center justify-between">
             <nav>
@@ -30,11 +38,19 @@ const NavBar = () => {
             </nav>
 
             <nav className="flex items-center justify-center flex-wrap">
-                <motion.a href="https://www.instagram.com/us.rootedtogether/" target="_blank" whileHover={{y:2}} whileTap={{scale:0.9}} className="px-2"><InstagramIcon className="h-auto w-full"/></motion.a>
-                <motion.a href="https://www.tiktok.com/@us.rootedtogether" target="_blank" whileHover={{y:2}} whileTap={{scale:0.9}} className="px-2"><TiktokIcon className="h-auto w-full"/></motion.a>
-                <motion.a href="https://www.youtube.com/@us.rootedtogether" target="_blank" whileHover={{y:2}} whileTap={{scale:0.9}} className="px-2"><YoutubeIcon className="h-auto w-full"/></motion.a>
-                <motion.a href="https://www.linkedin.com/company/rooted-together/" target="_blank" whileHover={{y:2}} whileTap={{scale:0.9}} className="px-2"><LinkedInIcon className="h-auto w-full"/></motion.a>
-                <motion.a href="mailto:contact.rootedtogether@gmail.com" target="_blank" whileHover={{y:2}} whileTap={{scale:0.9}} className="px-2"><EmailIcon className="h-auto w-full"/></motion.a>
+                <motion.a href="https://www.instagram.com/us.rootedtogether/" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }} className="px-2"><InstagramIcon className="h-auto w-full" /></motion.a>
+                <motion.a href="https://www.tiktok.com/@us.rootedtogether" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }} className="px-2"><TiktokIcon className="h-auto w-full" /></motion.a>
+                <motion.a href="https://www.youtube.com/@us.rootedtogether" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }} className="px-2"><YoutubeIcon className="h-auto w-full" /></motion.a>
+                <motion.a href="https://www.linkedin.com/company/rooted-together/" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }} className="px-2"><LinkedInIcon className="h-auto w-full" /></motion.a>
+                <motion.a href="mailto:contact.rootedtogether@gmail.com" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }} className="px-2"><EmailIcon className="h-auto w-full" /></motion.a>
+
+                <button onClick={() => setMode(mode === "light" ? "dark" : "light")} className="ml-3 flex items-center justify-center rounded-full p-1">
+                    {mode == "dark" ? 
+                    <Sun className={"fill-primary"} />
+                     : 
+                     <Moon className={"fill-primary"} />}
+                </button>
+
             </nav>
 
             <div className="absolute left-[50%] top-2 translate-x-[-50%]">
