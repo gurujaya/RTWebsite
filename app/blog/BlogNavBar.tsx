@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import {Menu} from '../public/list.svg'
+import Menu from '../public/list.svg'
 
 
 
