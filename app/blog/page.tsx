@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import logo from 'public/robotplant.jpg'
 import {motion} from 'framer-motion'
-import BlogNavBar  from '../blog/BlogNavBar.tsx'
+import BlogNavBar  from '../blog/BlogNavBar'
 /// * import pictureOne from 
 
 export default function Blog() {
