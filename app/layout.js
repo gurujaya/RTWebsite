@@ -16,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html className={montserrat.className} lang="en">
-      <body className="bg-light w-full min-h-screen">
+      <body className="bg-light w-full min-h-screeen dark:bg-primaryDark">
       <NavBar/>
         {children}
       <Footer/>

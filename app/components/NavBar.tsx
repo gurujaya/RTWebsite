@@ -29,7 +29,7 @@ const NavBar = () => {
 
 
     return (
-        <header className="w-full px-32 py-8 font-medium flex items-center justify-between">
+        <header className="w-full px-32 py-8 font-medium flex items-center justify-between dark:text-light">
             <nav>
                 <CustomLink href="/" title="Home" className="mr-4" />
                 <CustomLink href="/about" title="About" className="mx-4" />
@@ -42,11 +42,11 @@ const NavBar = () => {
                 <motion.a href="https://www.tiktok.com/@us.rootedtogether" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }} className="px-2"><TiktokIcon className="h-auto w-full" /></motion.a>
                 <motion.a href="https://www.youtube.com/@us.rootedtogether" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }} className="px-2"><YoutubeIcon className="h-auto w-full" /></motion.a>
                 <motion.a href="https://www.linkedin.com/company/rooted-together/" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }} className="px-2"><LinkedInIcon className="h-auto w-full" /></motion.a>
-                <motion.a href="mailto:contact.rootedtogether@gmail.com" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }} className="px-2"><EmailIcon className="h-auto w-full" /></motion.a>
+                <motion.a href="mailto:contact.rootedtogether@gmail.com" target="_blank" whileHover={{ y: 2 }} whileTap={{ scale: 0.9 }} className="px-2"><EmailIcon className="h-auto w-full dark:fill-light" /></motion.a>
 
                 <button onClick={() => setMode(mode === "light" ? "dark" : "light")} className="ml-3 flex items-center justify-center rounded-full p-1">
                     {mode == "dark" ? 
-                    <Sun className={"fill-primary"} />
+                    <Sun className={"fill-primary dark:fill-light"} />
                      : 
                      <Moon className={"fill-primary"} />}
                 </button>

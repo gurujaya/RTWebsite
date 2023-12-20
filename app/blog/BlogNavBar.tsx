@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import {Menu} from '../public/list.svg'
+import List from "../components/icons/List";
 
 
 
@@ -13,9 +13,7 @@ const BlogNavBar = () => {
     
             
             <div className='flex flex-row space-x-5 items-center justify-center md:justify-start md:px-12 border-b border-zinc-500 w-full'>  
-                <Menu>
-                    
-                </Menu>
+                <List className="hover:dark:bg-dark"></List>
             </div>
 
             
