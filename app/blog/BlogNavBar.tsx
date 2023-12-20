@@ -13,7 +13,7 @@ const BlogNavBar = () => {
     
             
             <div className='flex flex-row space-x-5 items-center justify-center md:justify-start md:px-12 border-b border-zinc-500 w-full'>  
-                <List className="hover:dark:bg-dark"></List>
+                <List className="hover:dark:bg-dark ml-64 mt-6"></List>
             </div>
 
             
