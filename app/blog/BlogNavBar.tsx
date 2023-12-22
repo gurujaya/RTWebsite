@@ -12,11 +12,18 @@ const BlogNavBar = () => {
     return (
         <div>
             <div className="flex flex-row space-y-5 items-center justify-center md:justify-start md:px-12 border-b border-black w-full">
+                       
+
+                
+
+            </div>
+
             <div>
+            <div className="mt-6">
                 <Disclosure as="nav">
-                    <Disclosure.Button className="absolute top-4 right-4 inline-flex items-center peer justify-center rounded-md p-2 text-gray-800 hover:bg-gray-900 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white group">
+                    <Disclosure.Button className="absolute top-4 right-4 inline-flex items-center peer justify-center rounded-md p-2 text-dark-800 hover:bg-gray-900 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white group">
                     </Disclosure.Button>
-                    <div className="p-6 w-1/2 h-screen bg-white z-20 fixed top-0 -left-96 lg:left-0 lg:w-60  peer-focus:left-0 peer:transition ease-out delay-150 duration-200">
+                    <div className=" mt-28 p-6 w-1/2 h-screen bg-white z-20 fixed top-0 -left-96 lg:left-0 lg:w-60  peer-focus:left-0 peer:transition ease-out delay-150 duration-200">
                     <div className="flex flex-col justify-start item-center">
                         <h1 className="text-base text-center cursor-pointer font-bold text-blue-900 border-b border-gray-100 pb-4 w-full">
                         Virtual Dashboard
@@ -82,18 +89,15 @@ const BlogNavBar = () => {
                     </div>
                 </Disclosure>
 
-                <List className="hover:dark:bg-dark ml-64 mt-6  rounded-full-right-3"></List>            
-
-                
-
+                <List className="hover:dark:bg-dark ml-64 mt-6  rounded-full-right-3"></List> 
             </div>
-            </div>
+        </div>
+        </div>
 
            
     
 
-                
-        </div>
+            
     )
 }
 
