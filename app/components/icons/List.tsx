@@ -1,8 +1,9 @@
 import * as React from "react"
+
 const List = ({className, ...rest}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={48} height={48} className={`w-full h-auto bi bi-list ${className}`} {...rest}
+    width={10} height={10} className={`w-full h-auto bi bi-list ${className}`} {...rest}
   >
     <path
       fillRule="evenodd"
