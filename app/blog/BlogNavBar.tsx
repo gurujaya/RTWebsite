@@ -11,12 +11,7 @@ const BlogNavBar = () => {
     const [open, setOpen] = useState(false); 
     return (
         <div>
-            <div className="flex flex-row space-y-5 items-center justify-center md:justify-start md:px-12 border-b border-black w-full">
-                       
-
-                
-
-            </div>
+    
 
             <div>
             <div className="mt-6">
