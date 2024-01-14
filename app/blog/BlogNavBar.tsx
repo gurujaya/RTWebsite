@@ -11,7 +11,6 @@ const BlogNavBar = () => {
     const [open, setOpen] = useState(false); 
     return (
         <div>
-    
 
             <div>
             <div className="mt-6">
