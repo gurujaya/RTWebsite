@@ -36,7 +36,7 @@ const NavBar = () => {
                 <CustomLink href="/" title="Home" className="mr-4" />
                 <CustomLink href="/about" title="About" className="mx-4" />
                 <CustomLink href="/team" title="Team" className="mx-4" />
-                <CustomLink href="/blog" title="Blog" className="ml-4" />
+                <CustomLink href="/blog/pages/index.js" title="Blog" className="ml-4" />
             </nav>
 
             <nav className="flex items-center justify-center flex-wrap">

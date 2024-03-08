@@ -48,7 +48,7 @@ const page = () => {
             <div className='col-span-3 flex flex-col items-start justify-start'>
               <h2 className='mb-4 text-lg font-bold uppercase text-dark/75'>About Us</h2>
               <p className='font-medium'>
-                Lorem ipsum dolor sit amet. Qui omnis rerum et modi officia sed soluta repudiandae. Qui tempore libero quo vero voluptatum qui numquam perferendis id sapiente molestiae eum officiis galisum vel quidem neque ut sequi dolorum.
+                Rooted together is a Non-Profit organization that is fiscally sponsored by the Hack Foundation. Having over 6+ school branches, we are making our impact 
               </p>
               <p className='my-4 font-medium'>
                 Est quaerat quos ut omnis nemo rem odio libero vel sunt ratione non voluptates sunt ut iure voluptas. Et expedita delectus qui labore ratione in autem autem id accusamus veritatis quo voluptatem amet non facere perferendis.
