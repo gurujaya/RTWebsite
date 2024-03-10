@@ -12,9 +12,9 @@ const page = () => {
       <section className="mb-32 text-center">
         <div className="xl:gap-2xl-24 lg:gap-xl-12 grid gap-x-6 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6">
           <div className="mb-12 lg:mb-0">
-            <img className="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px]" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).jpg" alt="avatar" />
-            <h5 className="mb-4 text-lg font-bold">Alan Turing</h5>
-            <p className="mb-6">Frontend Developer</p>
+            <img className="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px]" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="avatar" />
+            <h5 className="mb-4 text-lg font-bold">Guruprasath Jayaprakash</h5>
+            <p className="mb-6">Chief Executive Officer</p>
             <ul className="mx-auto flex list-inside justify-center">
               <a href="#!" className="px-2">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
@@ -40,9 +40,9 @@ const page = () => {
             </ul>
           </div>
           <div className="mb-12 lg:mb-0">
-            <img className="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px]" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(4).jpg" alt="avatar" />
-            <h5 className="mb-4 text-lg font-bold">Veronica Smith</h5>
-            <p className="mb-6">Backend Developer</p>
+            <img className="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px]" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="avatar" />
+            <h5 className="mb-4 text-lg font-bold">Ananya Sawminathan </h5>
+            <p className="mb-6">Cheif Operational Officer</p>
             <ul className="mx-auto flex list-inside justify-center">
               <a href="#!" className="px-2">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
@@ -68,9 +68,9 @@ const page = () => {
             </ul>
           </div>
           <div className="mb-12 md:mb-0">
-            <img className="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px]" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).jpg" alt="avatar" />
-            <h5 className="mb-4 text-lg font-bold">Tom Johnson</h5>
-            <p className="mb-6">Digital Marketing Analyst</p>
+            <img className="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px]" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="avatar" />
+            <h5 className="mb-4 text-lg font-bold">Niteesh Attiganal Jagadeesh</h5>
+            <p className="mb-6">Chief Marketing Officer</p>
             <ul className="mx-auto flex list-inside justify-center">
               <a href="#!" className="px-2">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-primary dark:text-primary-400"
@@ -96,9 +96,9 @@ const page = () => {
             </ul>
           </div>
           <div className="mb-12 md:mb-0">
-            <img className="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px]" src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(31).jpg" alt="avatar" />
-            <h5 className="mb-4 text-lg font-bold">Emma Lovelace</h5>
-            <p className="mb-6">Web Designer</p>
+            <img className="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px]" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="avatar" />
+            <h5 className="mb-4 text-lg font-bold">Jaden Osrah-Keelson</h5>
+            <p className="mb-6">Chief Social Media Officer</p>
             <ul className="mx-auto flex list-inside justify-center">
               <a href="#!" className="px-2">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
