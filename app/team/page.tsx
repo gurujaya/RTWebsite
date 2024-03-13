@@ -12,7 +12,7 @@ const page = () => {
       <section className="mb-32 text-center">
         <div className="xl:gap-2xl-24 lg:gap-xl-12 grid gap-x-6 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6">
           <div className="mb-12 lg:mb-0">
-            <img className="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px]" src="app/picBank/Guru.jpg" alt="avatar" />
+            <img className="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px]" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="avatar" />
             <h5 className="mb-4 text-lg font-bold">Guruprasath Jayaprakash</h5>
             <p className="mb-6">Chief Executive Officer</p>
             <ul className="mx-auto flex list-inside justify-center">
