@@ -10,8 +10,9 @@ const page = () => {
         <AnimatedText text='Our Team' className='mb-16'></AnimatedText>
       </div>
       <section className="mb-32 text-center">
-        <div className="xl:gap-2xl-24 lg:gap-xl-12 grid gap-x-6 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6">
-          <div className="mb-12 lg:mb-0">
+        <div className="container"></div>
+        <div className=" lg:gap-xl-12 grid gap-x-6 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 ">
+          <span className="mb-12 lg:mb-0 w-52 ">
             <img className="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px]" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="avatar" />
             <h5 className="mb-4 text-lg font-bold">Guruprasath Jayaprakash</h5>
             <p className="mb-6">Chief Executive Officer</p>
@@ -38,8 +39,8 @@ const page = () => {
                 </svg>
               </a>
             </ul>
-          </div>
-          <div className="mb-12 lg:mb-0">
+          </span>
+          <span className="mb-12 lg:mb-0 w-52">
             <img className="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px]" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="avatar" />
             <h5 className="mb-4 text-lg font-bold">Ananya Sawminathan </h5>
             <p className="mb-6">Cheif Operational Officer</p>
@@ -66,8 +67,8 @@ const page = () => {
                 </svg>
               </a>
             </ul>
-          </div>
-          <div className="mb-12 md:mb-0">
+          </span>
+          <div className="mb-12 md:mb-0 w-52">
             <img className="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px]" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="avatar" />
             <h5 className="mb-4 text-lg font-bold">Niteesh Attiganal Jagadeesh</h5>
             <p className="mb-6">Chief Marketing Officer</p>
@@ -95,7 +96,7 @@ const page = () => {
               </a>
             </ul>
           </div>
-          <div className="mb-12 md:mb-0">
+          <div className="mb-12 md:mb-0 w-52">
             <img className="mx-auto mb-6 rounded-lg shadow-lg dark:shadow-black/20 w-[150px]" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="avatar" />
             <h5 className="mb-4 text-lg font-bold">Jaden Osrah-Keelson</h5>
             <p className="mb-6">Chief Social Media Officer</p>
