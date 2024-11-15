@@ -47,14 +47,14 @@ const page = () => {
           <div className='grid w-full grid-cols-8 gap-16'>
             <div className='col-span-3 flex flex-col items-start justify-start'>
               <h2 className='mb-4 text-lg font-bold uppercase text-dark/75'>About Us</h2>
-              <p className='font-medium'>
-                Rooted together is a Non-Profit organization that is fiscally sponsored by the Hack Foundation. Having over 6+ school branches, we are making our impact 
+              <p className='font-medium dark:text-light'>
+              Rooted Together is a nonprofit dedicated to fighting food insecurity through sustainable urban farming and community-driven education. Founded on the belief that access to fresh, nutritious food is a right, we empower communities to cultivate their own produce using innovative yet accessible methods, such as hydroponics and vertical gardening.
               </p>
-              <p className='my-4 font-medium'>
-                Est quaerat quos ut omnis nemo rem odio libero vel sunt ratione non voluptates sunt ut iure voluptas. Et expedita delectus qui labore ratione in autem autem id accusamus veritatis quo voluptatem amet non facere perferendis.
+              <p className='my-4 font-medium dark:text-light'>
+              Our mission is to make urban farming feasible and impactful in all settings, from apartments to schoolyards. We host hands-on workshops, provide resource kits, and collaborate with local schools and community centers to teach practical skills that promote self-sufficiency and reduce food waste. By bridging traditional agriculture with modern techniques, we’re creating sustainable food sources that strengthen communities.
               </p>
-              <p className='font-medium'>
-                A vitae eveniet qui nulla iusto sed culpa aliquam aut galisum voluptatem non pariatur dolore sit perspiciatis repudiandae qui iusto culpa. Sit tempora velit est modi unde nam sunt molestiae? Et quod galisum aut corporis internos et delectus aspernatur. Ut blanditiis debitis ex dicta quibusdam a voluptas ipsam est officia voluptas!
+              <p className='font-medium dark:text-light'>
+              Rooted Together envisions a world where every community can feed itself sustainably. Through our commitment to environmental stewardship, education, and inclusivity, we’re building a future where fresh, healthy food is accessible to all. Join us in cultivating change—because rooted together, we grow stronger.
               </p>
             </div>
             <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark dark:border-light bg-light dark:bg-primaryDark transition-colors p-8'>
